@@ -1,0 +1,97 @@
+.tour_card {
+  background-color: white;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: 0.25s ease-in-out;
+  height: 200px;
+  width: 900px;
+  max-width: 900px;
+  max-height: 400px;
+}
+.tour_card:first-child {
+  margin-top: 30px;
+}
+
+.tour_card:hover {
+  transform: translateY(-10px);
+}
+
+.tour_container {
+  display: flex;
+  width: 90%;
+  height: 200px;
+  max-width: 900px;
+  justify-content: space-between;
+}
+
+.tour_container > * {
+  flex: 1;
+}
+
+.tour_image {
+  height: 200px;
+  width: 400px;
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.tour_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.tour_container h1 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.tour_container .text_container {
+  padding: 10px 20px;
+  margin: auto 0;
+}
+.tour_col {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.tour_col > span {
+  margin-right: 10px;
+}
+.tour_date,
+.tour_name,
+.tour_venue {
+  margin-top: 10px;
+}
+
+.tour_date {
+  margin-bottom: 10px;
+}
+
+.tour_win_con {
+  margin-top: 5px;
+}
+
+.tour_win_con h1 {
+  border: none;
+}
+.tour_field {
+  color: #16457a;
+  font-weight: bold;
+}
+.con_wrap {
+  position: relative;
+}
+.conclude {
+  position: absolute;
+  top: 8px;
+  right: -70px;
+  font-size: 18px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  color: white;
+  background-color: var(--accent);
+}
